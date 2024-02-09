@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "mongoose": "^8.1.1",
+    "nodemon": "^3.0.3"
+  },
+  "name": "blog-mongoose-exercise",
+  "description": "Repo for workings related to exercise 2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "default",
+    "start": "nodemon server.js"
+  },
+  "author": "Ernie Lim",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Keestle/SE-MOD-9-Exercise-2.git"
+  },
+  "keywords": [
+    "mongoose"
+  ],
+  "bugs": {
+    "url": "https://github.com/Keestle/SE-MOD-9-Exercise-2/issues"
+  },
+  "homepage": "https://github.com/Keestle/SE-MOD-9-Exercise-2#readme"
+}
