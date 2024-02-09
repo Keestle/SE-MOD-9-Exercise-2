@@ -1,5 +1,5 @@
 "use strict";
-let Models = require("../models 2/schemas");
+let Models = require("../models 2/user");
 
 const createLike = (data, res) => {
   console.log(data);

@@ -6,12 +6,15 @@ require("dotenv").config();
 
 let dbConnect = require("./dbConnect");
 let userRoutes = require('./routes/userRoutes');
+let postRoutes = require('./routes/postRoutes');
+let likeRoutes = require('./routes/likeRoutes');
+let commentRoutes = require('./routes/commentRoutes');
 
 // parse requests of content-type - application/json
 app.use(express.json());
 
 app.get("/", (req, res) => {
-res.json({ message: "Welcome to my MongoDB application." });
+res.json({ message: "Testing blog app." });
 });
 
 // set port, listen for requests

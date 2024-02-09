@@ -10,6 +10,6 @@ router.post('/create', (req, res) => {
   postController.createPost(req.body, res);
 });
 
-// Add other post-related routes as needed
+
 
 module.exports = router;
